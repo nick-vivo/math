@@ -6,7 +6,7 @@ namespace math
 {
 //TODO: add a methods to restrict types
 template<typename T>
-class Point
+class point
 {
 private:
 T _col, _row;
