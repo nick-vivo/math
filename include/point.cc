@@ -11,8 +11,8 @@ class point
 private:
 T _col, _row;
 public:
-    Point(): _col(T()), _row(T()) {}
-    Point(T column, T row): _col(column), _row(row) {}
+    point(): _col(T()), _row(T()) {}
+    point(T column, T row): _col(column), _row(row) {}
     
     inline T get_col() noexcept
     {
