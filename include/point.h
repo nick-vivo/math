@@ -1,10 +1,8 @@
-#ifndef __POINT_CC__
-#define __POINT_CC__
-#pragma once
+#ifndef __POINT_H__
+#define __POINT_H__
 
 namespace math
 {
-//TODO: add a methods to restrict types
 template<typename T>
 class point
 {
